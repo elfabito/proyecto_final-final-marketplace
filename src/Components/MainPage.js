@@ -3,13 +3,13 @@ import Box from "@mui/material/Box";
 import ToggleButton from "@mui/material/ToggleButton";
 import ToggleButtonGroup from "@mui/material/ToggleButtonGroup";
 import CustomSelectCheckmarks from "./CustomSelectCheckmarks";
-import Carrousel from "./Carrousel";
+
 import Button from "@mui/material/Button";
 import { useState, useContext } from "react";
 import CustomAutoComplete from "./CustomAutoComplete";
 import { storeContext } from "../Store/StoreProvider";
 import { Link } from "react-router-dom";
-import { Paper } from "@material-ui/core";
+import { Paper } from "@mui/material";
 
 import Footer from "./Footer";
 import { Container } from "@mui/material";
@@ -100,7 +100,7 @@ function MainPage() {
       </Box>
       <Container maxWidth="xxl">
         <Box marginBottom={4} marginTop={5}>
-          <Carrousel />
+          
         </Box>
       </Container>
 
