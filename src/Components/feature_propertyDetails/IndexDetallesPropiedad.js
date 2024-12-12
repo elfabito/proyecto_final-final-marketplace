@@ -8,7 +8,7 @@ import DPropiedad from "./Descripcion.js";
 import Propiedades from "./Propiedades.js";
 import React from "react";
 import "./Styles/imagen.css";
-import Carrousel from "../Carrousel.js";
+
 import data from "../feature_propertyDetails/Database/DataPropiedades.js";
 import PropertyDetails from "./Database/DataTablaDePropiedades.js";
 
@@ -30,7 +30,7 @@ function DetallePropiedad(props) {
         <Breadcrumb Seguimiento={hilos} />
 
         <div className="DetallePropiedadImagen">
-          <Carrousel />
+          
         </div>
         <div className="carta">
           <div className="subCarta">
