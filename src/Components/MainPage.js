@@ -49,7 +49,8 @@ function MainPage() {
 
       justifyContent: "center",
       textAlign: "center",
-
+      backgroundSize: "cover",
+      backgroundRepeat: "no-repeat",
       padding: "10%",
     },
   };
