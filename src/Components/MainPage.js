@@ -22,7 +22,7 @@ function MainPage() {
   const [localidades, setLocalidades] = useState();
   const [tipopublicacion, setTipopublicacion] = useState();
   const [tipo, setTipo] = useState();
- 
+
   const filtros = {
     ubicacion: localidades,
     tipoVenta: tipopublicacion,
@@ -45,7 +45,7 @@ function MainPage() {
   };
   const styles = {
     paperContainer: {
-      backgroundImage: `url(${"https://source.unsplash.com/random"})`,
+      backgroundImage: `url(${"https://static.diegopaz.net/wp-content/uploads/2015/10/pagina-web-para-inmobiliaria-1.jpg"})`,
 
       justifyContent: "center",
       textAlign: "center",
@@ -99,9 +99,7 @@ function MainPage() {
         </Paper>
       </Box>
       <Container maxWidth="xxl">
-        <Box marginBottom={4} marginTop={5}>
-          
-        </Box>
+        <Box marginBottom={4} marginTop={5}></Box>
       </Container>
 
       <Paper>
